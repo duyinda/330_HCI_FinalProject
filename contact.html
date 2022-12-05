@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Contact Yinda</title>
+      <link rel="shortcut icon" type="image/jpg" href="assets/images/favicon.ico"/>
+      <link rel="stylesheet" href="styles.css">
+   </head>
+
+   <body>
+
+
+     <nav role=navigation class="top-nav" aria-label="Navbar" role="navigation">
+       <ul>
+         <li><a tabindex=1 href="index.html">Home</a></li>
+         <li><a tabindex=2 href="resume.html">Resume</a></li>
+         <li><a tabindex=3 href="bio.html">Bio</a></li>
+
+         <li>
+           <a tabindex=4 href="projects.html" aria-haspopup="true" aria-expanded="false">Projects</a>
+           
+         </li>
+         <li nav aria-current=page> <a tabindex=5 href="contact.html">Contact</a></li>
+       </ul>
+     </nav>
+
+
+
+     <main role="main">
+       <div aria-label="title">
+   
+
+       </div>
+
+       <div aria-label="Contact info">
+         <p>Email: yindadu2023 [at] u [dot] northwestern [dot] edu</p>
+         
+       </div>
+
+       <hr>
+
+       <h1>I would contact you if you fill out this form</h1>
+
+
+
+       <div id="form" aria-label="Data collection form">
+         <div id="form-inside">
+           <form>
+
+             <p>First name:</p>
+             <input type="text" placeholder="Only letters" pattern="[A-Za-z]" required aria-labelledby="fnameDesc"><br>
+             
+             <p>Last name:</p>
+             <input type="text" placeholder="Only letters" pattern="[A-Za-z]" required aria-labelledby="fnameDesc"><br>
+             
+             <p>Email address:</p>
+             <input type="email" placeholder="XXX@XX.com" required aria-labelledby="emailDesc"><br>
+
+
+             <p>Phone number:</p>
+             <input type="text" placeholder="XXX-XXX-XXXX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required aria-labelledby="emailDesc"><br>
+             
+
+             <p>Please tell me which part of this website took your interest</p>
+             <input type="radio" id="school" name="reason" value="school">
+              <label for="school">Website Design</label><br>
+              <input type="radio" id="work" name="reason" value="work">
+              <label for="work">Skills in Resume</label><br>
+              <input type="radio" id="Others" name="reason" value="other">
+              <label for="other">Experiences in Bio and Projects</label><br>
+              <input type="radio" id="Other" name="reason" value="other">
+              <label for="other">Other</label><br><br>
+              
+
+
+              <input type="submit" value="Submit">
+              <br>
+              <br>
+           </form>
+         </div>
+       </div>
+
+     </main>
+
+
+   </body>
+</html>
